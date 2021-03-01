@@ -1,0 +1,17 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+.para{
+    color: red;
+}
+.fd{
+    background-color: royalblue;
+}
+#sd{
+    background-color: brown
+}
+/* .commantform{
+    color: chocolate;
+} */
+#idComment{
+    color: darkgoldenrod;
+    background-color: darkgreen;
+}
