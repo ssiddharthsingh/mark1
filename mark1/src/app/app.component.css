@@ -15,3 +15,16 @@
     color: darkgoldenrod;
     background-color: darkgreen;
 }
+/* .img-fluid{
+    height: 350px;
+    width: 250px;
+} */
+.eagle{
+    height: 400px;
+    width: 500px;
+}
+.text-yellow{
+    color: chartreuse;
+    text-align: center;
+}
+

@@ -7,7 +7,32 @@
   
 </head>
 <body>
-  <!-- <img src="2.jpg" class="img-fluid" alt="..."> ask about image -->
+ 
+
+<!-- grid -->
+<div class="row">
+ 
+  <div class="col-md">
+    <img src="./assets/1.png" class="img-fluid" alt="...">
+  </div>
+ 
+  <div class="col-md ">
+    
+    <div class="card bg-dark text-yellow">
+      <img class="card-img" src="./assets/eagle.jpg" alt="Card image">
+      <div class="card-img-overlay">
+        <h5 class="card-title">Eagle</h5>
+        <p class="card-text">This is an Eaggle
+          </p>
+        <p class="card-text"></p>
+      </div>
+    </div>
+  </div>
+ 
+  <div class="col-md">
+    <img src="./assets/2.jpg" class="img-fluid" alt="...">
+  </div>
+</div>
 
   <p class="para">siddharth</p>
   <div class="fd">
@@ -25,11 +50,21 @@
     <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
     <label for="floatingPassword">Password</label>
   </div>
-
+  <div class="form-floating mb-3">
+    <input type="number" class="form-control" id="fid" placeholder="1234..">
+    <label for="floatingInput">Enter A Number</label>
+  </div>
+  <div class="form-floating mb-3">
+    <input type="number" class="form-control" id="sid" placeholder="1234..">
+    <label for="floatingInput">Enter B Number</label>
+  </div>
+  <p id="result"></p>
+   <button type="button" class="btn btn-primary" (click)="sum()">Add</button>
   <div class="form-floating commantform" id="idComment">
     <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
     <label for="floatingTextarea">Comments</label>
   </div>
+  
 
   <!-- grid -->
   <div class="row">
@@ -40,7 +75,8 @@
       hii it me
     </div>
     <div class="col-xl">
-      <!-- <img src="1.png" alt="..."> this also not working-->
+      <img src="./assets/2.jpg" alt="..."> 
+      <!-- this also not working -->
     </div>
   </div>
 
